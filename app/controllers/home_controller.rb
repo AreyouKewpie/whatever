@@ -4,9 +4,9 @@ class HomeController < ApplicationController
 
   def answer
 
-
-    tenposu = Post.all.length
-    @number = rand(tenposu-1)
-    @the_restaurant = Post.all[@number+1].name
+    @restaurants = ["楽楽楽","ケニア","RAJU"]
+    tenposu = @restaurants.length
+    @number = rand(tenposu)
+    @the_restaurant = @restaurants[@number]
   end
 end
