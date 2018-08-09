@@ -3,9 +3,8 @@ class HomeController < ApplicationController
   end
 
   def answer
-
     tenposu = Post.all.length
-    @number = rand(tenposu-1)
-    @the_restaurant = Post.all[@number+1].name
+    @number = rand(tenposu)
+    @the_restaurant = Post.all[@number-1].name
   end
 end
