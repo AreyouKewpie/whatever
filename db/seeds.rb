@@ -6,10 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # https://www.rubylife.jp/rails/model/index10.html参考にした
-require "csv"
-
-CSV.foreach('db/restaurant_100.csv') do |row|
-
-  Post.create(:name => row[0])
-
-end
+Post.create(name:'方円美味')
+Post.create(name:'RAJU')
+Post.create(name:'アオゾラ')
+Post.create(name:'キラメキ')
