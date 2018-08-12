@@ -3,7 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /*共通*/
 html{
-  font:"Hiragino Sans",sans-serif;
+  font-family:
+   Hiragino Sans,
+   "ヒラギノ角ゴシック",
+   Hiragino Kaku Gothic ProN,
+   "ヒラギノ角ゴ ProN W3",
+   Roboto,
+   "Droid Sans",
+   YuGothic,
+   "游ゴシック",
+   Meiryo,
+   "メイリオ",
+   Verdana,
+   "ＭＳ Ｐゴシック",
+   sans-serif;
+
   line-height: 1.7;
   letter-spacing: 1px;
 }
