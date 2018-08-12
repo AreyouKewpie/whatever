@@ -9,5 +9,5 @@
 require "csv"
 
 CSV.foreach('db/restaurant_100.csv') do |info|
-  Post.create(:name => info[0], :comment => info[1], :type => info[2])
+  Post.create(:name => info[0], :comment => info[1], :tag => info[2])
 end
